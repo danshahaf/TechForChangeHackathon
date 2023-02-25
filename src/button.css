@@ -35,26 +35,26 @@
   
   .text {
     margin-top: 5px;
-    color: #080808;
+    color: #050E72;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     font-family: Century Gothic;
   }
 
-  .button::after {
+  .button::before {
     content: "";
     position: absolute;
     width: 20%;
-    height: 3px;
+    height: 3.5px;
     bottom: 0;
-    background-color: #660699;
+    background-color: #E11652;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
   }
   
-  .button:hover::after{
+  .button:hover::before{
     visibility: visible;
     transform: scaleX(1);
   }

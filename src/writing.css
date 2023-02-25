@@ -1,0 +1,25 @@
+.text-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+  }
+  
+  p {
+    text-align:justify;
+    color: #050E72;
+    font-family: Century Gothic;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  h2{
+    color: #E11652;
+    text-align: left;
+    font-family: Century Gothic;
+    font-weight: bold;
+  }
+
+  
