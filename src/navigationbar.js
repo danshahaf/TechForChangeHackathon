@@ -1,14 +1,16 @@
 import React from 'react';
 import NavBtn from './navbtn.js';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInfo } from '@fortawesome/free-solid-svg-icons'
+import './button.css'
 function NavBar() {
-    return (
-      <div>
-        <h1> HELO WORD TEST</h1>
-        <NavBtn icon={faInfo} title={'information'} />
+ return (
+    <nav className="navbar">
+      <div className="navbar-container">
+      <NavBtn title={'Registration + Eligibility'} />
+      <NavBtn title={'Plan to vote'} />
+      <NavBtn title={'Voter Literacy'} />
       </div>
-    );
+    </nav>
+  );
   }
   
   export default NavBar;

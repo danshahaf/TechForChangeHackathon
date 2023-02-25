@@ -1,13 +1,12 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// FontAwesomeIcon.library.add()
+import './button.css'
 function NavBtn(props) {
     return (
-      <div>
-        <button>
-            <FontAwesomeIcon icon={props.icon} />
+      <div className="button-container">
+        <button className="button">
+        <div class="text">{props.title}</div>
         </button>
-        <p> {props.title} hello  </p>
+        
       </div>
     );
   }

@@ -5,7 +5,7 @@ import NavBar from './navigationbar.js'
 function App() {
   return (
     <div className="App">
-      <h1> We are running </h1>
+      <h1> VoteMA </h1>
       <NavBar />
     </div>
   );
