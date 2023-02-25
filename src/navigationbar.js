@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBtn from './navbtn.js';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInfo } from '@fortawesome/free-solid-svg-icons'
 function NavBar() {
     return (
