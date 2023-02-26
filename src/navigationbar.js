@@ -40,7 +40,7 @@ function NavBar() {
         </li>
       </ul>
       <div
-        className="underline"
+        className="squiggle"
         style={{ transform: `translateX(${activeLink * 33.33}%)` }}
       ></div>
     </nav>
