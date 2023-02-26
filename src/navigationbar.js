@@ -1,16 +1,50 @@
-import React from 'react';
-import NavBtn from './navbtn.js';
-import './button.css'
+import React, { useState } from "react";
+import "./button.css";
+
 function NavBar() {
- return (
-    <nav className="navbar">
-      <div className="navbar-container">
-      <NavBtn title={'Registration + Eligibility'} />
-      <NavBtn title={'Plan to vote'} />
-      <NavBtn title={'Voter Literacy'} />
-      </div>
+  const [activeLink, setActiveLink] = useState(0);
+
+  const handleLinkClick = (index) => {
+    setActiveLink(index);
+  };
+
+  return (
+    <nav>
+      <ul>
+        <li>
+          <a
+            href="#"
+            className={activeLink === 0 ? "active" : ""}
+            onClick={() => handleLinkClick(0)}
+          >
+            Registration + Eligibility
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            className={activeLink === 1 ? "active" : ""}
+            onClick={() => handleLinkClick(1)}
+          >
+            Plan to Vote
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            className={activeLink === 2 ? "active" : ""}
+            onClick={() => handleLinkClick(2)}
+          >
+            Voting Literacy
+          </a>
+        </li>
+      </ul>
+      <div
+        className="underline"
+        style={{ transform: `translateX(${activeLink * 33.33}%)` }}
+      ></div>
     </nav>
   );
-  }
-  
-  export default NavBar;
+}
+
+export default NavBar;

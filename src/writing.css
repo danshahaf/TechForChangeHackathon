@@ -3,10 +3,13 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    height: 40%;
-    width: 50%;
+    height: 50%;
+    width: 35%;
     background-color: hsl(0, 0%, 100%);
+    margin-left: 130px;
   }
+
+
   
   p {
     text-align:justify;
@@ -20,6 +23,13 @@
     text-align: left;
     font-family: Century Gothic;
     font-weight: bold;
+  }
+
+  .body-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
   }
 
   

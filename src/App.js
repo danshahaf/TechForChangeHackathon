@@ -5,7 +5,7 @@ import './writing.css'
 import NavBar from './navigationbar.js'
 import Mission from './mission.js'
 import myImage from './clear logo.png';
-import ReactDOM from 'react-dom';
+import VideoContainer from './vids';
 
 function App() {
   return (
@@ -13,7 +13,10 @@ function App() {
       <div className="image-container">
         <img src={myImage} />
       </div>
-      <Mission/>
+      <div className="body-container">
+        <Mission/>
+        <VideoContainer/>
+      </div>
       <NavBar/>
     </div>
   );
