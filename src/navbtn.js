@@ -1,5 +1,5 @@
 import './button.css'
-import myImage from './clear logo.png';
+import myImage from './wevote-logo.png';
 function handleClick() {
   window.location.href = '/';
 }

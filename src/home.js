@@ -1,4 +1,3 @@
-import './App.css';
 import './image.css'
 import './writing.css'
 import NavBar from './navigationbar.js'
@@ -8,7 +7,10 @@ import VideoContainer from './vids';
 
 function Home() {
   return (
-    <div className="App">
+    <div style={{
+      backgroundImage: 'linear-gradient(to bottom right, #8AC2E2, #BDDFF3)',
+      height: '110%',
+    }}>
       <div className="image-container">
         <NavBtn/>
       </div>
