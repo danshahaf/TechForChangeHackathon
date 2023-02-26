@@ -11,9 +11,11 @@
     margin-bottom: 50px;
     min-height: 10px;
   }
-  h2{
+
+  h2 {
     color: #050e72;
-    text-align: left;
     font-family: Century Gothic;
     font-weight: bold;
+    border-bottom: 5px solid #e11652; /* adjust the value to control the color and thickness of the underline */
   }
+  
