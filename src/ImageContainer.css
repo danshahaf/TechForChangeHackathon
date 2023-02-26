@@ -1,10 +1,31 @@
 .imgComp {
     width: 300px;
     align-items: center;
+    
 }
-
-    img {
-        max-width: 100%;
-        height: relative;
-        align-items: center;
+/*
+    .imgComp:hover {
+        
     }
+*/
+
+    .imgcontrols {
+        width:200px;
+        height:150px;
+        margin: 5px 10px;
+
+        background: yellowgreen;
+        transition: 1s;
+    }    
+    
+    .imgcontrols:hover {
+        transform: scale(1.5);
+        cursor: pointer;
+    }
+
+    .imgcontrols img {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+

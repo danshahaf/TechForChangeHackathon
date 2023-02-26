@@ -47,4 +47,10 @@
 
     IC {
         justify-content: center;
+        transition: transform 0.3s ease
+    }
+
+    IC:hover {
+        transform: scale(1.5);
+        cursor: pointer;
     }

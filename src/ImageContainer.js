@@ -6,8 +6,10 @@ function ImageContainer(props) {
 
     return (
       <div className="imgComp">
-        <a href={url}>
-            <img src={imageFile} alt="preview" />
+        <a className="imgcontrols" href={url}>
+            <div>
+                <img src={imageFile} alt="preview" />
+            </div>
         </a>
       </div>
     );
