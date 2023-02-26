@@ -2,6 +2,7 @@ import './image.css'
 import './writing.css'
 import NavBar from './navigationbar.js'
 import NavBtn from './navbtn.js'
+import Checklist from './checklist'
 
 function Plan() {
   return (
@@ -12,6 +13,7 @@ function Plan() {
       <div className="image-container">
         <NavBtn/>
       </div>
+      <Checklist/>
       <NavBar/>
     </div>
   );

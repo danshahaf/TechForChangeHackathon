@@ -7,7 +7,7 @@
     width: 35%;
     color: #050E72;
     background-color: transparent;
-    margin-left: 130px;
+    margin-left: auto;
   }
 
 
@@ -21,7 +21,7 @@
   }
   h2{
     color:#050E72;
-    text-align: left;
+    text-align: center;
     font-family: Century Gothic;
     font-weight: bold;
   }

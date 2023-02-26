@@ -12,6 +12,7 @@ function Reg() {
       <div className="image-container">
         <NavBtn/>
       </div>
+      <h2>Are You Eligible to Vote?</h2>
       <NavBar/>
     </div>
   );
