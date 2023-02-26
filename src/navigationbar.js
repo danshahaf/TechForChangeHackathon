@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./button.css";
 
 function NavBar() {
@@ -12,35 +13,35 @@ function NavBar() {
     <nav>
       <ul>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/RegPage"
             className={activeLink === 0 ? "active" : ""}
             onClick={() => handleLinkClick(0)}
           >
             Registration + Eligibility
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/PlanPage"
             className={activeLink === 1 ? "active" : ""}
             onClick={() => handleLinkClick(1)}
           >
             Plan to Vote
-          </a>
+          </Link>
         </li>
         <li>
-          <a
-            href="#"
+          <Link
+            to="/CivicPage"
             className={activeLink === 2 ? "active" : ""}
             onClick={() => handleLinkClick(2)}
           >
-            Voting Literacy
-          </a>
+            Civic Engagement
+          </Link>
         </li>
       </ul>
       <div
-        className="squiggle"
+        className="underline"
         style={{ transform: `translateX(${activeLink * 33.33}%)` }}
       ></div>
     </nav>

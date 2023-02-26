@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-import './image.css'
-import './writing.css'
-import NavBar from './navigationbar.js'
-import Mission from './mission.js'
-import myImage from './clear logo.png';
-import VideoContainer from './vids';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import NavBar from './navigationbar';
+import Home from './home.js';
+import Civic from './civic.js';
+import Plan from './plan.js';
+import Reg from './reg.js';
 
 function App() {
   return (
-    <div className="App">
-      <div className="image-container">
-        <img src={myImage} />
-      </div>
-      <div className="body-container">
-        <Mission/>
-        <VideoContainer/>
-      </div>
-      <NavBar/>
-    </div>
+    <Router>
+        <Routes>
+          <Route path="/" element={<Home />}>
+          </Route>
+          <Route path="/RegPage" element={<Reg />}>
+          </Route>
+          <Route path="/PlanPage" element={<Plan />}>
+          </Route>
+          <Route path="/CivicPage" element={<Civic />}>
+          </Route>
+        </Routes>
+    </Router>
   );
 }
 
