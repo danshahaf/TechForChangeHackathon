@@ -1,0 +1,31 @@
+.VLPage {
+    margin-bottom: 100px;
+    overflow-y: scroll;
+}
+
+.Scroll {
+    
+    scroll-padding-bottom: 105px ;
+}
+
+.VLTitle {
+    text-align: left;
+    margin-left: 10%;
+    font-family: 'Century Gothic';
+}
+
+.Logo {
+    width: 30%;
+    height: 30%;
+}
+
+.img {
+    max-width: 200px;
+    height: auto;
+}
+
+.VLSections {
+    text-align: left;
+    margin-left: 10%;
+    
+}

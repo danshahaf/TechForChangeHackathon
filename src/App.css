@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+
+}
+
+.VL {
+  height: 100vh - 120px;
+  align-items: start;
+  padding-bottom: 500px;
 }
 
 .App-logo {
