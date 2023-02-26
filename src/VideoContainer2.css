@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .video {
+    width: 40%;
+    height: relative;
+    margin-bottom: 100px;
+    min-height: 10px;
+  }
+
+  h2 {
+    color: #E11652;
+    text-align: left;
+    font-family: Century Gothic;
+    font-weight: bold;
+  }

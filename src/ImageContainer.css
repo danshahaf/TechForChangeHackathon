@@ -1,0 +1,10 @@
+.imgComp {
+    width: 300px;
+    align-items: center;
+}
+
+    img {
+        max-width: 100%;
+        height: relative;
+        align-items: center;
+    }

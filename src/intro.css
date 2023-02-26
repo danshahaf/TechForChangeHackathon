@@ -1,0 +1,50 @@
+.WhyVote {
+    align-items: center;
+}
+
+    .bigint {
+        font-size: 2em;
+        color: rgb(255, 139, 38);
+    }
+
+    .bigint2 {
+        font-size: 2.5em;
+        color: rgb(255, 139, 38);
+    }
+
+    .highlight {
+        font-size: 1.3em;
+        color: rgb(240, 38, 136);
+    }
+
+    .Message {
+        font-size: 2.5em;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(227, 40, 34);
+    }
+
+.Impact {
+    align-items: center;
+}
+
+    h2 {
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    VC2 {
+        align-items: center;
+    }
+
+    .websites {
+        /*display: flex;*/
+        margin-left: 10%;
+        margin-right: 10%;
+        justify-content: space-around;
+        margin-bottom: 100px;
+    }
+
+    IC {
+        justify-content: center;
+    }
